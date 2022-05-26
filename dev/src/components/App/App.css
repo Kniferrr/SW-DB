@@ -18,3 +18,14 @@
       margin-right: auto;
       margin-left: auto;
   }
+
+.max1080 {
+  max-width: 1080px;
+  display: flex;
+  margin: 0px 0px;
+  justify-content: space-between;
+}
+
+.block {
+  width: 1080px;
+}

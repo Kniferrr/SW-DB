@@ -75,7 +75,10 @@ class ItemList extends Component {
             <div className="list-items">
                 <ul className="list-item-ul">
                     {Items}
-                    <span className='spinner'>{spinner}</span>
+                    <div className='px10'>
+                    {spinner}
+                    </div>
+                    
                 </ul>
             </div>
         </div>

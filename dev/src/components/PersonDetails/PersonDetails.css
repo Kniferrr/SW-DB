@@ -3,9 +3,9 @@
   display: flex;
   align-items: center;
   list-style-type: none;
+  width: auto;
   background-color: #303030;
   border-radius: 10px;
-  max-width: 540px;
 }
 
 .person-details img {
@@ -21,7 +21,6 @@
 }
 
 .block {
-  max-width: 1110px;
   padding: 0px 0px;
 }
 
@@ -31,4 +30,8 @@ span {
 
 .spinner {
   margin-left: 10px;
+}
+
+.flex{
+  display: flex;
 }
